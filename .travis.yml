@@ -4,9 +4,9 @@ install: go get -v github.com/spf13/hugo # use a stable release
 script:
   - hugo
 
-# branches:
-#   only:
-#     - master
+branches:
+  only:
+    - master
 
 # Deploy to GitHub pages
 deploy:
